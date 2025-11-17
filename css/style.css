@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Gradiente bonito no cabeçalho */
+.header-gradiente {
+  background: linear-gradient(135deg, #66e7fb, #e354b4, #8d6ebc);
+}
+
+.header-gradiente h1,
+.header-gradiente p {
+  color: rgb(0, 0, 0);
+}
+
+/* Seção Sobre a Apresentação */
+.agenda-gradiente {
+  background: linear-gradient(135deg, #66e7fb, #e354b4, #8d6ebc);
+  color: black; /* Cor padrão preta para melhorar legibilidade */
+  padding: 60px 0;
+}
+
+.agenda-gradiente h2,
+.agenda-gradiente h5,
+.agenda-gradiente p {
+  color: black;
+}
+
+.agenda-gradiente i {
+  color: #000; /* Ícones pretos */
+}
+
+/* Estilo para títulos */
+h2 {
+  color: #8d6ebc;
+  font-weight: bold;
+}
+
+.titulo-principal {
+  color: #66e7fb;
+  font-weight: bold;
+}
+
+.subtitulo {
+  color: #8d6ebc;
+}
+
+/* Cards com animação */
+.cards-evento .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cards-evento .card p {
+  margin-top: auto;
+}
+
+
+/* Seção apresentadora */
+.apresentadora {
+  background-color: #550eb3;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Nome APENAS branco, sem brilho */
+.apresentadora h4 {
+  color: #ffffff !important;
+  font-weight: 600;
+  text-shadow: none !important; /* garante que não aplique brilho */
+}
+
+
+.foto-apresentadora {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%; /* mantém a foto redonda */
+  border: none; /* remove a borda */
+  box-shadow: none; /* remove sombra, caso queira */
+}
+
+/* Rodapé */
+footer {
+  background-color: #0a0a0a; 
+  color: #e6e6e6; /* cinza claro no texto */
+  font-size: 23px;
+}
+
+
+/* Botão Youtube */
+.youtube-section {
+  background: linear-gradient(135deg, #fff, #f8f9fa);
+  border-radius: 16px;
+  padding: 60px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-section h2 {
+  color: #c4302b;
+  font-weight: bold;
+}
+
+.youtube-section p {
+  color: #000000;
+}
+
+.youtube-section .btn-danger {
+  background-color: #c4302b;
+  border: none;
+}
+
+.youtube-section .btn-danger:hover {
+  background-color: #a2201b;
+}
+
+
+
+.texto-colunas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+  gap: 20px; /* espaço entre colunas */
+  max-width: 900px;
+  margin: 40px auto; /* centraliza na tela com espaçamento */
+  text-align: justify;
+}
+
+.texto-colunas .coluna {
+  background: rgba(255, 255, 255, 0.1); /* leve destaque */
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+}
+
+.texto-colunas h3 {
+  margin-bottom: 10px;
+  text-align: left; /* títulos alinhados à esquerda */
+  font-weight: bold;
+}
+
+.texto-colunas p {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+  .texto-colunas {
+    grid-template-columns: 1fr; /* apenas 1 coluna no celular */
+  }
+}
+
+
+.agenda-cabecalho h1,
+.agenda-cabecalho h2,
+.agenda-cabecalho p {
+  font-family: 'Bodoni Moda', 'Didot', serif !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+.agenda-cabecalho h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.agenda-cabecalho h2 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+
+.agenda-cabecalho h1 {
+  font-family: "Momo Trust Display", sans-serif !important;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.titulo-evento {
+  color: #ffffff !important; /* mude a cor aqui */
+  font-family: "Momo Trust Display", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
